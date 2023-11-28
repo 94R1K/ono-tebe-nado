@@ -1,10 +1,7 @@
 .header {
   position: static;
   width: 1440px;
-<<<<<<< HEAD
-=======
   height: 293px;
->>>>>>> 4c1feea60eecb0d8ca8035000474ee14a26a468d
   background: #FFF;
   display: flex;
   justify-content: center;
@@ -16,13 +13,6 @@
 }
 
 .header__menu {
-<<<<<<< HEAD
-  width: 1340px;
-  height: 109px;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-=======
   display: flex;
   align-content: center;
   flex-wrap: wrap;
@@ -30,35 +20,11 @@
   width: 1340px;
   height: 109px;
   margin-top: 92px;
->>>>>>> 4c1feea60eecb0d8ca8035000474ee14a26a468d
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
-  color: #000;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.header__links-list ul {
-  display: flex;
-  gap: 32px;
-  text-decoration: underline;
-}
-
-.header__links-list ul li:first-child {
-  text-decoration: unset;
-  list-style: none;
-}
-
-.header__links-list ul li {
-  list-style: circle;
-  background-clip: padding-box;
-=======
   align-items: center;
   color: #000;
 }
@@ -129,5 +95,4 @@
 
 .aligned-text_center {
   justify-content: center;
->>>>>>> 4c1feea60eecb0d8ca8035000474ee14a26a468d
 }

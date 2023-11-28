@@ -1,98 +1,52 @@
-.header {
-position: static;
-width: 1440px;
-height: 293px;
-background: #FFF;
-display: flex;
-justify-content: center;
-align-content: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="header__menu">
+    <div class="header__links-list">
+      <ul>
+        <li>
+          <a class="header__link_active">главная</a>
+        </li>
+        <li>
+          <a class="header__link">посмотреть лоты</a>
+        </li>
+        <li>
+          <a class="header__link">об аукционе</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header__logo">
+      <a class="header__logo-image"></a>
+    </div>
+    <div class="address">
+      <a href="tel:+99995555555">+9 999 555 5555</a>
+      <br>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <br>
+      наб. Принсенграхт 263-265,<span class="header__address">Амстердам</span>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="cover">
+    <div class="overlay">
+      <h1 class="cover__title">о<span class="aligned-text">но</span>
+        <span class="aligned-text_center">тебе</span><span>надо</span></h1>
+    </div>
+  </div>
+</main>
+<footer>
 
-.header__menu {
-display: flex;
-align-content: center;
-flex-wrap: wrap;
-gap: 216px;
-width: 1340px;
-height: 109px;
-margin-top: 92px;
-}
-
-.header__links-list {
-display: flex;
-flex-direction: row;
-align-items: center;
-color: #000;
-}
-
-.header__links-list ul {
-list-style: circle;
-display: flex;
-gap: 32px;
-}
-
-.header__links-list li:first-child {
-list-style: none;
-}
-
-.header__link {
-text-decoration: underline;
-}
-
-.header__logo-image {
-display: block;
-width: 138px;
-height: 105px;
-background-image: url("/images/logo-black.svg");
-background-size: contain;
-cursor: pointer;
-}
-
-.address {
-margin-top: 5px;
-margin-left: 145px;
-line-height: 24.3px;
-}
-
-.header__address {
-display: block;
-}
-
-.cover {
-width: 1440px;
-height: 757px;
-background-image: url("/images/cover.jpg");
-background-size: cover;
-background-position: 50% 50%;
-}
-
-.overlay {
-height: 757px;
-background: rgb(0 0 0 / .6);
-}
-
-.cover__title {
-padding: 165px 50px 237px;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-color: #fff;
-font-size: 100px;
-font-style: normal;
-font-weight: 700;
-line-height: 115%;
-letter-spacing: 30px;
-text-transform: uppercase;
-}
-
-.aligned-text {
-letter-spacing: 60px;
-}
-
-.aligned-text_center {
-justify-content: center;
-}
+</footer>
+</body>
+</html>
