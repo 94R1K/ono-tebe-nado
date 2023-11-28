@@ -2,7 +2,7 @@
   position: static;
   width: 1440px;
   height: 293px;
-  background: #FFF;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -55,7 +55,7 @@
 .address {
   margin-top: 5px;
   margin-left: 145px;
-  line-height: 24.3px;
+  line-height: 135%;
 }
 
 .header__address {
@@ -65,6 +65,7 @@
 .cover {
   width: 1440px;
   height: 757px;
+  color: #fff;
   background-image: url("/images/cover.jpg");
   background-size: cover;
   background-position: 50% 50%;
@@ -76,23 +77,78 @@
 }
 
 .cover__title {
-  padding: 165px 50px 237px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  color: #fff;
+  flex-direction: column;
+  gap: 20px;
+  padding: 165px 50px 0;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%;
+  line-height: 115px;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .aligned-text {
+  display: contents;
   letter-spacing: 60px;
 }
 
-.aligned-text_center {
-  justify-content: center;
+.aligned-text_center_start {
+  display: block;
+  text-align: center;
+  line-height: 100px;
+}
+
+.aligned-text_center_end {
+  display: inline-block;
+  text-align: center;
+  line-height: 100px;
+  letter-spacing: 60px;
+}
+
+.aligned-text_right_start {
+  text-align: end;
+  line-height: 100px;
+  letter-spacing: 60px;
+}
+
+.aligned-text_right_middle {
+  line-height: 100px;
+  letter-spacing: 30px;
+}
+
+.aligned-text_right_end {
+  line-height: 100px;
+  letter-spacing: 0;
+}
+
+.cover__description-text {
+  margin-top: 147px;
+  display: inline-block;
+  margin-left: 422px;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 17px;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  margin-top: 135px;
+  margin-left: 78px;
+  width: 257px;
+  height: 52px;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 8px 16px;
+  color: #fff;
 }
