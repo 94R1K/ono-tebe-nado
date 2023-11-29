@@ -136,9 +136,13 @@
   text-transform: uppercase;
 }
 
+.cover__description-text-right {
+  margin-left: 5px;
+}
+
 .bet-button {
   margin-top: 135px;
-  margin-left: 78px;
+  margin-left: 74px;
   width: 257px;
   height: 52px;
   text-align: center;
@@ -151,4 +155,110 @@
   border: 1px solid #fff;
   padding: 8px 16px;
   color: #fff;
+  cursor: pointer;
+}
+
+.lots {
+  margin: 180px 50px 0;
+  width: 1340px;
+  height: 579px;
+}
+
+.lots__heading {
+  margin-left: 40px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 27px;
+  color: #fff;
+  gap: 25px;
+}
+
+.lots__card-list-item {
+  list-style: none;
+  flex-grow: 1;
+  min-width: 430px;
+  min-height: 450px;
+}
+
+.lots .overlay {
+  width: 430px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 40px;
+  gap: 103px;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  width: 430px;
+}
+
+.card_type_film {
+  height: 450px;
+  background-image: url("/images/card-lot-01.jpg");
+  background-size: contain;
+}
+
+.card_type_film .overlay {
+  padding: 0 40px;
+  gap: 103px;
+}
+
+.card_type_book {
+  height: 450px;
+  background-image: url("/images/card-lot-02.jpg");
+  background-size: contain;
+}
+
+.card_type_book .overlay {
+  padding: 50px 40px 50px;
+  gap: 30px;
+}
+
+.card_type_picture {
+  height: 450px;
+  background-image: url("/images/card-lot-03.jpg");
+  background-size: contain;
+}
+
+.card_type_picture .overlay {
+  padding: 50px 40px 50px;
+  gap: 78px;
+}
+
+.card__title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.lots__look-more-link {
+
 }
