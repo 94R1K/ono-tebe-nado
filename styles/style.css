@@ -232,6 +232,7 @@ body {
 }
 
 .card__title {
+  text-decoration-skip-ink: none;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -365,7 +366,7 @@ body {
   justify-content: end;
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 48px;
 }
 
 .footer__social-icon {
