@@ -1,13 +1,7 @@
 .header {
-  display: flex;
-  justify-content: center;
-  min-height: 100%;
-}
-
-.header__content {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  min-height: 109px;
+  margin: 94px 50px;
   min-width: 1340px;
   background: #fff;
   align-items: center;
@@ -65,11 +59,6 @@
   position: relative;
   background-size: cover;
   background-position: center;
-}
-
-.cover__content {
-  position: relative;
-  height: 757px;
   z-index: 1;
 }
 
@@ -119,22 +108,27 @@
   letter-spacing: 0;
 }
 
+.cover__description {
+  margin-top: 135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .cover__description-text {
-  margin-top: 147px;
-  display: inline-block;
-  margin-left: 422px;
   text-align: center;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  word-spacing: 17px;
+  word-spacing: 18px;
   text-transform: uppercase;
 }
 
 .bet-button {
-  margin-top: 135px;
-  margin-left: 74px;
+  margin-left: 78px;
+  margin-right: 50px;
   width: 257px;
   min-height: 52px;
   text-align: center;
@@ -324,7 +318,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  margin: 180px 50px 0;
+  margin: 180px 50px 90px;
   max-width: 1340px;
   color: #000;
   font-size: 18px;
@@ -363,6 +357,5 @@
 }
 
 .footer__social-icon {
-  width: 48px;
-  height: 49px;
+  height: 48px;
 }
